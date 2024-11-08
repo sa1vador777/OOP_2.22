@@ -9,6 +9,7 @@ from pathlib import Path
 sys.path.insert(1,os.path.join(sys.path[0], '..'))
 from main import create_db, add_student, main_func
 
+s = []
 
 class TestStudentDatabase(unittest.TestCase):
 
